@@ -11,9 +11,9 @@ app.use(express.json({limit: '1tb'}));
 var mysqlConnection=mysql.createConnection({
     host: "192.168.1.160",
     port: 3306,
-    user: "iotdata",
+    user: "",
     database: "SHMDB",
-    password: "csir.ceeri",
+    password: "",
 });
 
 //var queryString= "SELECT Temperature FROM ISL201 ORDER BY ISL201.Timestamp DESC";
